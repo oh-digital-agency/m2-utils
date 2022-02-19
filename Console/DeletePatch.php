@@ -45,7 +45,7 @@ class DeletePatch extends Command
      */
     protected function configure()
     {
-        $this->setName('oh:delete:patch')
+        $this->setName('oh:patch:delete')
             ->setDescription('Delete patch by name')
             ->setDefinition([]);
         $this->addArgument(

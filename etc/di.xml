@@ -4,7 +4,7 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="oh:delete:patch" xsi:type="object">OH\Utils\Console\DeletePatch</item>
+                <item name="oh:patch:delete" xsi:type="object">OH\Utils\Console\DeletePatch</item>
                 <item name="oh:cms:printall" xsi:type="object">OH\Utils\Console\Cms\PrintPages</item>
             </argument>
         </arguments>
